@@ -1,0 +1,2973 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="uft-8">
+ 
+<title>T.HORARIO</title>
+ 
+<link rel="stylesheet" href="paginas_inicio_css/TIENDAS_HORARIO.css"> 
+  
+</head>
+
+<body>
+<img class="cuadro" 
+src="img_pagina_inicio/TIENDA/ab.png">
+<section class="container">
+
+	<h3 class="h_tienda">HORARIO DE TIENDAS - 18/04/2019 - Actualizado ;)</h3>
+
+	<input type="search" class="light-table-filter" data-table="order-table" placeholder="BUSCAR"><br><br>
+
+	<table class="order-table table">
+		<thead>
+			<tr>
+        <th>T</th>
+        <th>N°TIENDA</th>	
+        <th>NOMBRE TIENDA</th>
+        <th>DEPARTAMENTO</th> 
+         <th>DISTRITO</th>
+        <th>DIRECCIÓN</th>
+        <th>REFERENCIA</th>
+        <th>CORREO SUPERVISOR</th>
+        <th>CORREO TIENDA</th>
+        <th>L-V</th>
+        <th>S</th>
+        <th>D</th>
+        <th><a class="consulta">C</a></th><span>CONSULTA</span>
+        <th><a class="reclamo">R</a></th><span>RECLAMO</span>
+        <th><a class="activacion">A</a></th><span>ACTIVACIÓN</span>
+        <th><a class="baja">B</a></th><span>BAJA</span>
+        <th><a class="pago">P</a></th><span>PAGOS</span>
+        <th><a class="st">S</a></th><span>SERVICIO TECNICO</span>
+
+<script>
+
+(function(document) {
+	'use strict';
+
+	var LightTableFilter = (function(Arr) {
+
+		var _input;
+
+		function _onInputEvent(e) {
+			_input = e.target;
+			var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
+			Arr.forEach.call(tables, function(table) {
+				Arr.forEach.call(table.tBodies, function(tbody) {
+					Arr.forEach.call(tbody.rows, _filter);
+				});
+			});
+		}
+
+		function _filter(row) {
+			var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
+			row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+		}
+
+		return {
+			init: function() {
+				var inputs = document.getElementsByClassName('light-table-filter');
+				Arr.forEach.call(inputs, function(input) {
+					input.oninput = _onInputEvent;
+				});
+			}
+		};
+	})(Array.prototype);
+
+	document.addEventListener('readystatechange', function() {
+		if (document.readyState === 'complete') {
+			LightTableFilter.init();
+		}
+	});
+
+})(document);
+ 
+</script>
+
+
+</thead>
+<tbody>
+<tr>
+<td>TP</td>
+<td>TIENDA28</td>
+<td>GRAU HUACHO</td>
+<td>LIMA</td>
+<td>HUACHO</td>
+<td>Av. Grau 283-285, Local 28</td>
+<td>Al costado de la Reniec</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>8:30am a 7:00pm</td>
+<td>8:30am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA96</td>
+<td>LARCO</td>
+<td>LIMA</td>
+<td>MIRAFLORES</td>
+<td>Av. Larco 497</td>
+<td>Alt. Parque Kennedy</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:30am a 8:30pm</td>
+<td>9:30am a 8:30pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/o.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA39</td>
+<td>MEGA PLAZA</td>
+<td>LIMA</td>
+<td>INDEPENDENCIA</td>
+<td>CC Megaplaza - Local L-520 - Av. Alfredo Mendiola 3698 y la Av. Industrial 3513-3515-3517-3519</td>
+<td>2do Piso - Ingreso por SAT.&nbsp; Al frente del Chifa Palacio</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:30am a 9:30pm</td>
+<td>NO ATIENDE</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA20</td>
+<td>COMANDANTE ESPINAR</td>
+<td>LIMA</td>
+<td>MIRAFLORES</td>
+<td>Av. Comandante Espinar 368, Miraflores.</td>
+<td>Alt. Comandante Espinar con Angamos</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>8:30am a 7:30pm</td>
+<td>8:30am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA36</td>
+<td>PLAZA REPUBLICA</td>
+<td>LIMA</td>
+<td>SAN ISIDRO</td>
+<td>Av. Paseo de la Rep&uacute;blica 3490</td>
+<td>Detr&aacute;s de Plaza Vea</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>8:30am a 7:30pm</td>
+<td>8:30am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/o.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA25</td>
+<td>AVIACI&Oacute;N</td>
+<td>LIMA</td>
+<td>SAN BORJA</td>
+<td>Av. Aviaci&oacute;n 2647 San Borja</td>
+<td>Entre aviaci&oacute;n y San Borja Norte. Frente a Pandero</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>8:30am a 7:30pm</td>
+<td>8:30am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA06</td>
+<td>CENTRO BANCARIO</td>
+<td>LIMA</td>
+<td>SANTA ANITA</td>
+<td>Carretera Central 193, Local 15, Piso 2, Santa Anita</td>
+<td>Centro Bancario Santa Anita - Piso 2</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>8:30am a 6:30pm</td>
+<td>8:30am a 1:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA41</td>
+<td>PROCERES</td>
+<td>LIMA</td>
+<td>SAN JUAN DE LURIGANCHO</td>
+<td>Av. Pr&oacute;ceres de la Independencia N&deg; 1679 Mz. T LT. 3 Urb. Las Flores de Lima</td>
+<td>Frente al metro La Hacienda o la estacion del tren Los Jardines</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>8:30am a 7:00pm</td>
+<td>8:30am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA16</td>
+<td>SAN JUAN1</td>
+<td>LIMA</td>
+<td>SAN JUAN DE MIRAFLORES</td>
+<td>Av. San Juan 899, San juan de Miraflores. Cruce con Av. Billinghurst</td>
+<td>Frente al Colegio Maristas Manuel Barinaga y en el primer piso del Instituto SISE</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>8:30am a 7:00pm</td>
+<td>8:30am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA04</td>
+<td>LUIS GONZALES</td>
+<td>LAMBAYEQUE</td>
+<td>CHICLAYO</td>
+<td>Av. Luis Gonzales 245, Chiclayo.</td>
+<td>A una cuadra del Hospital Naylamp de Essalud</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA05</td>
+<td>BOLOGNESI</td>
+<td>ANCASH</td>
+<td>CHIMBOTE</td>
+<td>Av. Bolognesi No. 473</td>
+<td>Al Costado de la UCV</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA09</td>
+<td>LIBERTAD</td>
+<td>PIURA</td>
+<td>PIURA</td>
+<td>Grau 429-443</td>
+<td>Ovalo Grau</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA31</td>
+<td>CENTRO C&Iacute;VICO</td>
+<td>PIURA</td>
+<td>TALARA</td>
+<td>Calle Centro Civico 241-A y B</td>
+<td>En la recta de Zapater&iacute;a Bata, al lado de Casa Zapata frente a la Juguer&iacute;a Daniela</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA03</td>
+<td>LARCO SAN ANDRES</td>
+<td>LA LIBERTAD</td>
+<td>LA LIBERTAD</td>
+<td>Av. Larco 780, Urb. San Andr&eacute;s</td>
+<td>Entre Interbank e Inkafarma</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA12</td>
+<td>YANAHUARA</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>Av. El Ejercito 1001 - Yanahuara</td>
+<td>-</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA26</td>
+<td>MARISCAL CASTILLA</td>
+<td>ICA</td>
+<td>CHINCHA</td>
+<td>Calle Mariscal Castilla 208</td>
+<td>Cruce de la Av. Benavides con Mariscal Castilla. Al costado de CrediScotia</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA17</td>
+<td>EL SOL</td>
+<td>CUSCO</td>
+<td>CUSCO</td>
+<td>Av. El Sol 449 - Tienda B - Piso 1</td>
+<td>Al lado de la financiera CREDINKA y al frente de la tienda Movistar</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA42</td>
+<td>GIRALDEZ</td>
+<td>JUNIN</td>
+<td>JUNIN</td>
+<td>Av. Gir&aacute;ldez 347 esquina Jr. Omar Yali 113-119</td>
+<td>a 3 cdras de la Plaza Constitucion/a 1 cdra y media del Puente Giraldez</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA10</td>
+<td>LAS MORALES</td>
+<td>ICA</td>
+<td>ICA</td>
+<td>Calle San Mart&iacute;n 570 Urb. Las Morales, Ica</td>
+<td>Costado de la Clinica Sr de Luren y una cuadra antes de llegar al Centro comercial Plaza del Sol</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA13</td>
+<td>MOQUEGUA</td>
+<td>MOQUEGUA</td>
+<td>ILO</td>
+<td>Calle Moquegua 529 &ndash; 533 &ndash; 535</td>
+<td>a cuadra y media de la plaza de armas al costado de la tienda A-Sport</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA18</td>
+<td>JR. CUSCO</td>
+<td>PUNO</td>
+<td>JULIACA</td>
+<td>Jir&oacute;n Cuzco No. 135 - Ciudad de Juliaca</td>
+<td>A media cuadra del centro comercial n&deg;2</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TP</td>
+<td>TIENDA14</td>
+<td>TACNA</td>
+<td>MOQUEGUA</td>
+<td>TACNA</td>
+<td>Av. San Mart&iacute;n N&deg; 453-465 - Cercado de Tacna</td>
+<td>En el paseo c&iacute;vio al costado del ex Palacio Municipal de Tacna</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA77</td>
+<td>OPEN PLAZA HUANUCO</td>
+<td>HUANUCO</td>
+<td>HUANUCO</td>
+<td>Jr. Dos de Mayo Int. 6</td>
+<td>A una cuadra del puente San Sebastia</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00 a.m. a 10:00 p.m.</td>
+<td>09:00am a 10:00pm</td>
+<td>09:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA99</td>
+<td>PEDRO CANGA</td>
+<td>SAN MARTIN</td>
+<td>SAN MARTIN</td>
+<td>Jr. Pedro Canga 419</td>
+<td>Al costado del Hotel R&iacute;o Mayo</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00 a.m. a 8:00 p.m.</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA71</td>
+<td>REAL PLAZA PUCALLPA</td>
+<td>UCAYALI</td>
+<td>UCAYALI</td>
+<td>Av. Centenario 1642 Int. 138</td>
+<td>Frente al Colegio El Tambo</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 10:00pm</td>
+<td>09:00am a 10:00pm</td>
+<td>09:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAR2</td>
+<td>PASCO</td>
+<td>PASCO</td>
+<td>YANAHUANCA</td>
+<td>Calle Centro Comercial Int. D1</td>
+<td>Al frente de Inkafarma</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA97</td>
+<td>SAN MARTIN</td>
+<td>SAN MARTIN</td>
+<td>ANDAHUAYLAS</td>
+<td>Jr. Augusto Belegu&iacute;a 158</td>
+<td>Frente al colegio de Adventistas</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAA29</td>
+<td>NUEVA CAJAMARCA SUR</td>
+<td>SAN MARTIN</td>
+<td>MOYOBAMBA</td>
+<td>Av. Cajamarca Sur 298 cruce con Jr. Piura cdra. 2</td>
+<td>A una cuadra de la plaza Nueva Cajamarca</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAP8</td>
+<td>REAL PLAZA HUANUCO</td>
+<td>HUANUCO</td>
+<td>HUANUCO</td>
+<td>Jr. Independencia N&deg;1601 Int 213</td>
+<td>A una cuadra de la iglesia Puelles</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAQ3</td>
+<td>RAYMONDI TINGOMARIA</td>
+<td>HUANUCO</td>
+<td>RUPA-RUPA</td>
+<td>Av. Raimondy 387</td>
+<td>A una cuadra del Banco de Cr&eacute;dito</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAS4</td>
+<td>OPEN PLAZA PUCALLPA</td>
+<td>UCAYALI</td>
+<td>YARINACOCHA</td>
+<td>AV. CENTENARIO 2086</td>
+<td>Segundo nivel del centro comercial</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 9:00pm</td>
+<td>9:00am a 9:00pm</td>
+<td>9:00am a 9:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAS5</td>
+<td>CORONEL PORTILLO</td>
+<td>UCAYALI</td>
+<td>CALLERIA</td>
+<td>Jr. Coronel Portillo 548</td>
+<td>Frente minimarket Los Andes</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA61</td>
+<td>OPEN PLAZA ATOCONGO</td>
+<td>LIMA</td>
+<td>SAN JUAN DE MIRAFLORES</td>
+<td>Centro Comercial Open Plaza - Atocongo: Av. Circunvalacion N&deg; 1801 Local 42 B. San Juan de Miraflores</td>
+<td>Alt. paradero 15 Av. Proceres (a 5 cuadras de Metro)</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/o.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA42</td>
+<td>CANTACALLAO</td>
+<td>LIMA</td>
+<td>CALLAO</td>
+<td>CANTACALLAO CC OPEN PLAZA CANTA CALLAO - LOCAL N-10A</td>
+<td>FRENTE A LA AV. ELMER FAUCETT, SOB LOTE A Y FRENTE A LA AV. ALEJANDRO BERTELLO CON LA AV. SAN JUAN MACIAS</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>09:00am a 10:00pm</td>
+<td>09:00am a 10:00pm</td>
+<td>09:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/io.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA93</td>
+<td>PLAZA LIMA SUR1</td>
+<td>LIMA</td>
+<td>CHORRILLOS</td>
+<td>CC Plaza Lima Sur: Prol. Paseo de la Rep&uacute;blica s/n, Local LI-201 - Chorrillos</td>
+<td>dentro del CC Mall Aventura Plaza. 2 nivel,</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/o.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA76</td>
+<td>HIGUERETA OVALO</td>
+<td>LIMA</td>
+<td>SANTIAGO DE SURCO</td>
+<td>Av. Aviaci&oacute;n # 5187 y 5191 - Santiago de Surco</td>
+<td>Frente a plaza vea del Ovalo Higuereta</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/io.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA2</td>
+<td>MALL DEL SUR</td>
+<td>LIMA</td>
+<td>SAN JUAN DE MIRAFLORES</td>
+<td>AV. Pedro Miotta San Juan de Miraflores 15842, Mall del Sur San Juan de Miraflores</td>
+<td>CC Mall del Sur</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/io.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAT2</td>
+<td>REAL PLAZA VILLA MARIA</td>
+<td>LIMA</td>
+<td>VILLA MARIA DEL TRIUNFO</td>
+<td>CC Real Plaza Villa Maria Triunfo LC-104.Av. Pachacutec No. 3721 - 3781, Nueva Esperanza</td>
+<td>Curva de nueva Esperanza</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA56</td>
+<td>SAN JUAN2</td>
+<td>LIMA</td>
+<td>SAN JUAN DE MIRAFLORES</td>
+<td>Av san juan 1143 san juan de miraflores</td>
+<td>a 2 cdras de la tienda propia</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA54</td>
+<td>COMERCIO</td>
+<td>CAJAMARCA</td>
+<td>CAJAMARCA</td>
+<td>JR. COMERCIO NRO. 916</td>
+<td>ESQUINA CON JR SAN MARTIN 382, Frente a la Plaza de Armas</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA67</td>
+<td>HAYA DE LA TORRE</td>
+<td>ANCASH</td>
+<td>CHIMBOTE</td>
+<td>AV. VICTOR R.HAYA DE LA TORRE NRO. 585 (EX JOSE PARDO) ANCASH - SANTA - CHIMBOTE</td>
+<td>Costado de Tienda CARSA a una cuadra de la Plaza de Armas</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA70</td>
+<td>RAYMONDI HUARAZ</td>
+<td>ANCASH</td>
+<td>HUARAZ</td>
+<td>AV. ANTONIO RAYMONDI NRO. 623</td>
+<td>A media cuadra del grifo Ortiz</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAT9</td>
+<td>REAL PLAZA CAJAMARCA</td>
+<td>CAJAMARCA</td>
+<td>CAJAMARCA</td>
+<td>AV. EVITAMIENTO NORTE LOTE. 1A INT. REF (INT LC-116- REAL PLAZA</td>
+<td>Centro Comercial Real Plaza</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAJ3</td>
+<td>CASMA</td>
+<td>ANCASH</td>
+<td>CASMA</td>
+<td>AV.NEPE&Ntilde;A MZ C-5 CASMA</td>
+<td>A 2 cuadra de la plaza de armas</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 9:00pm</td>
+<td>9:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAK7</td>
+<td>BAGUA GRANDE</td>
+<td>AMAZONAS</td>
+<td>AMAZONAS</td>
+<td>CAL.SAN MARTIN NRO. 288 (ESQUINA DE LA PLAZA DE ARMAS) AMAZONAS - UTCUBAMBA - BAGUA GRANDE</td>
+<td>Referencia en la plaza de armas</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 9:00pm</td>
+<td>9:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAW2</td>
+<td>HUAMACHUCO</td>
+<td>LA LIBERTAD</td>
+<td>HUAMACHUCO</td>
+<td>MZA. 108 LOTE. 12 SEC. I (JR. JOSE BALTA 430) LA LIBERTAD - SANCHEZ CARRION - HUAMACHUCO</td>
+<td>Referencia en la plaza de armas</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 9:00pm (NO ATIENDE JUEVES)</td>
+<td>9:00am a 9:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAk9</td>
+<td>JAEN</td>
+<td>JAEN</td>
+<td>JAEN</td>
+<td>CAL.BOLIVAR NRO. 1412 (ALTURA PLAZA DE ARMAS)</td>
+<td>A media cuadra de la plaza de armas</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 9:00pm</td>
+<td>9:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAE7</td>
+<td>PACASMAYO</td>
+<td>LA LIBERTAD</td>
+<td>PACASMAYO</td>
+<td>JR. JUNIN NRO. 137</td>
+<td>A 2 cuadras de la plazuela el Paseo de la Paz</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 9:00pm</td>
+<td>9:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAK2</td>
+<td>PAIJAN</td>
+<td>LA LIBERTAD</td>
+<td>PAIJAN</td>
+<td>CAL.O'DONOVAN MZA. 37 LOTE. 4 P.J. ALTO PAIJAN</td>
+<td>A 2 cuadras de la plaza de armas</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 9:00pm</td>
+<td>9:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAH9</td>
+<td>CHEPEN</td>
+<td>LA LIBERTAD</td>
+<td>CHEPEN</td>
+<td>CAL.CAJAMARCA NRO. 621 C.P. CHEPEN (SECTOR 7 MZ 160 LOTE 3)</td>
+<td>Al costado del hotel chepen</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 9:00pm</td>
+<td>9:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAI4</td>
+<td>GAMARRA</td>
+<td>LA LIBERTAD</td>
+<td>TRUJILLO</td>
+<td>JR. GAMARRA NRO. 820 CENTRO DE TRUJILLO</td>
+<td>Al costado del C.C Virrey</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 9:00pm</td>
+<td>9:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAIO</td>
+<td>JUNIN</td>
+<td>LA LIBERTAD</td>
+<td>TRUJILLO</td>
+<td>CAL.JUNIN NRO. 647 INT. 643</td>
+<td>Frente a Carsa / Galerias Minchola</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 9:00pm</td>
+<td>9:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAI3</td>
+<td>LARCO RECREO</td>
+<td>LA LIBERTAD</td>
+<td>TRUJILLO</td>
+<td>AV. VICTOR LARCO HERRERA NRO. 267 URB. EL RECREO SEGUNDA ETAPA</td>
+<td>Al frente de Telefonica Larco</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAI1</td>
+<td>OPEN PLAZA TRUJILLO JARDINES</td>
+<td>LA LIBERTAD</td>
+<td>TRUJILLO</td>
+<td>AV. AMERICA NORTE NRO. 1245 INT. REF (AV. AMERICA NORTE 1245 INT. LC-20B OPEN)</td>
+<td>Centro Comercial Urb. Los Jardines</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 10:00pm</td>
+<td>9:00am a 10:00pm</td>
+<td>9:00am a 9:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAI6</td>
+<td>PORVENIR</td>
+<td>LA LIBERTAD</td>
+<td>TRUJILLO</td>
+<td>AV. SANCHEZ CARRION NRO. 599 P.J. EL PORVENIR</td>
+<td>A una cuadra de la Municipalidad</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAI2</td>
+<td>VALLEJO</td>
+<td>LA LIBERTAD</td>
+<td>TRUJILLO</td>
+<td>Av. C&eacute;sar Vallejo Mz I Lote 2 &ndash; Urb. Galeno I</td>
+<td>Frente a la clinica oftalmologica de la UPAO</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 9:00pm</td>
+<td>9:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAA30</td>
+<td>VIRU</td>
+<td>LA LIBERTAD</td>
+<td>VIRU</td>
+<td>AV. VIRU NRO. 2180 C.P. PUENTE VIRU</td>
+<td>panamericana, pasando puente viru</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA0</td>
+<td>CHACHAPOYAS1</td>
+<td>AMAZONAS</td>
+<td>AMAZONAS</td>
+<td>Jr. Amazonas 853</td>
+<td>Entre el cruce de Jr. Grau y Jr. Amazonas</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA59</td>
+<td>BALTA</td>
+<td>LAMBAYEQUE</td>
+<td>LAMBAYEQUE</td>
+<td>Av. Balta 936</td>
+<td>Frente a Mercado Central</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA9</td>
+<td>IQUITOS</td>
+<td>LORETO</td>
+<td>LORETO</td>
+<td>Jr Arica 326 -330 , Iquitos</td>
+<td>Unos 50 metros Colegio Sagrado Corazon.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA98</td>
+<td>OPEN PLAZA PIURA1</td>
+<td>PIURA</td>
+<td>PIURA</td>
+<td>CC Open Plaza Trujillo - Local LC-20B - Am&eacute;rica Norte 1245</td>
+<td>Segundo Piso CC Open Plaza</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAT3</td>
+<td>REAL PLAZA CHICLAYO</td>
+<td>LAMBAYEQUE</td>
+<td>CHICLAYO</td>
+<td>Calle Miguel de Cervantes 300 local 169 urb Diego Ferre Chiclayo</td>
+<td>Centro Comercial Real Plaza</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA52</td>
+<td>MALL PLAZA TRUJILLO</td>
+<td>LA LIBERTAD</td>
+<td>LA LIBERTAD</td>
+<td>MALL PLAZA TRUJILLO, por RIPLEY Local A-1012.</td>
+<td>MAP Trujillo</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:30am a 10:00pm</td>
+<td>10:30am a 10:00pm</td>
+<td>10:30am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAW3</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>Av. Tumbes 217</td>
+<td>-</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:30am a 12:30pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDA81</td>
+<td>CHULUCANAS</td>
+<td>PIURA</td>
+<td>CHULUCANAS</td>
+<td>Calle Cuzco 401, Chulucanas - Morropon</td>
+<td>En la Plaza de armas de Chulucanas</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAS7</td>
+<td>REAL PLAZA PIURA</td>
+<td>PIURA</td>
+<td>PIURA</td>
+<td>Av. Sanchez Cerro 234 Local LS 04</td>
+<td>Real Plaza</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAK5</td>
+<td>SECHURA</td>
+<td>PIURA</td>
+<td>SECHURA</td>
+<td>Av. Bolivar 472</td>
+<td>A espaldas de la Municipalidad de Sechura</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAJ8</td>
+<td>SULLANA 1</td>
+<td>PIURA</td>
+<td>SULLANA</td>
+<td>Jr. San Martin 675 - Urb. Centro</td>
+<td>Al costado de BCP</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA62</td>
+<td>TPF ASIA</td>
+<td>LIMA</td>
+<td>ASIA</td>
+<td>Carretera Panamericana Sur. Km. 97.5, Int. 16 Boulevar de Asia</td>
+<td>A un costado de Lab Nutricion, frente a Rest. Granja Azul</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA3</td>
+<td>LOS MAESTROS</td>
+<td>ICA</td>
+<td>ICA</td>
+<td>C.C El Quinde - Av. Los Maestros 2015 Local 165 - 166.</td>
+<td>C.C EL QUINDE</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm (NO ATIENDE JUEVES)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA39A</td>
+<td>MEGA PLAZA (sab-dom)</td>
+<td>LIMA</td>
+<td>INDEPENDENCIA</td>
+<td>CC Megaplaza - Local L-520 - Av. Alfredo Mendiola 3698 y la Av. Industrial 3513-3515-3517-3519, Independencia</td>
+<td>CC MEGA PLAZA</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>NO ATIENDE</td>
+<td>09:30am a 09:30pm</td>
+<td>09:30am a 09:30pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/io.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA85</td>
+<td>TPF MOVIL1</td>
+<td>LA LIBERTAD</td>
+<td>TRUJILLO</td>
+<td>De acuerdo a ubicación y calendario en la zona.</td>
+<td>De acuerdo a ubicación y calendario en la zona.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>09:00am a 8:30pm</td>
+<td>09:00am a 8:30pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA86</td>
+<td>TPF MOVIL2</td>
+<td>PIURA</td>
+<td>PAITA</td>
+<td>De acuerdo a ubicación y calendario en la zona.</td>
+<td>De acuerdo a ubicación y calendario en la zona.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>09:00am a 8:30pm</td>
+<td>09:00am a 8:30pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAU1</td>
+<td>OPEN PLAZA MARINA</td>
+<td>LIMA</td>
+<td>SAN MIGUEL</td>
+<td>Av. La Marina 2344, Int. LC16 - CC Plaza La Marina</td>
+<td>Segundo Nivel - Entreda Tottus San Miguel</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>09:00am a 10:00pm</td>
+<td>09:00am a 10:00pm</td>
+<td>09:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/io.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA95</td>
+<td>OPEN PLAZA ANGAMOS</td>
+<td>LIMA</td>
+<td>SURQUILLO</td>
+<td>Av. Angamos Este N°2681 Interior N° LC 25-26A</td>
+<td>Frente al Ingreso de tiendas Tottus - CC Open Angamos</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/io.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA41</td>
+<td>PLAZA DEL SOL</td>
+<td>ICA</td>
+<td>ICA</td>
+<td>AV SAN MARTIN 727-763 - MÓDULO LC119</td>
+<td>Frente a agencia Interbank dentro del CC Plaza del Sol</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA43</td>
+<td>PLAZA NORTE</td>
+<td>LIMA</td>
+<td>INDEPENDENCIA</td>
+<td> Av. Alfredo Mendiola 1400 - Locales Int. 340-362</td>
+<td>Tercer Nivel CC- Plaza Norte</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/io.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA37</td>
+<td>PLAZA SAN MIGUEL</td>
+<td>LIMA</td>
+<td>SAN MIGUEL</td>
+<td>Av la marina N°2000 local T321-322</td>
+<td>Tercer Nivel CC- CC PLAZA SAN MIGUEL</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/io.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAP0</td>
+<td>ITALIA1</td>
+<td>ICA</td>
+<td>CHINCHA ALTA</td>
+<td>Calle Italia 187 -1er Piso </td>
+<td>Esquina Cruce con calle Callao - a 1 cuadra de la Plaza De Armas de Chincha</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 4:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAQ6</td>
+<td>CAÑETE</td>
+<td>ICA</td>
+<td>SAN VICENTE DE CAÑETE</td>
+<td>Jr. Sepulveda 149- San Vicente de Cañete.</td>
+<td>A media cuadra de la plaza de armas </td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 4:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAP7</td>
+<td>MEGAPLAZA PISCO</td>
+<td>ICA </td>
+<td>PISCO</td>
+<td>CC Megaplaza Pisco local L09- Av las Americas esquina con Av Fermin Tanguis </td>
+<td>Centro Comercial Mega Plaza</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAP5</td>
+<td>NAZCA FERMIN</td>
+<td>ICA</td>
+<td>NAZCA</td>
+<td>Calle Fermin del Castillo 292 </td>
+<td>Cruce con Av. Bolognesi</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 4:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAP3</td>
+<td>PROGRESO</td>
+<td>ICA</td>
+<td>PISCO</td>
+<td>Av El Progreso 187 Centro Poblado dentro urbano de pisco sector Mz 19 Lote 19 </td>
+<td>En la Plaza de armas de Pisco</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 4:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA82</td>
+<td>MORAL</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>Calle Moral N° 114, Cercado de Arequipa</td>
+<td>Al costado de Real Plaza, frente a Telefónica.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA89</td>
+<td>28 JULIO AYACUCHO</td>
+<td>AYACUCHO</td>
+<td>AYACUCHO</td>
+<td>28 de Julio N° 100</td>
+<td>A media cuadra de la Plaza Principal de Ayacucho</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA8</td>
+<td>REAL PLAZA CUSCO</td>
+<td>CUSCO</td>
+<td>CUSCO</td>
+<td>REAL PLAZA CUZCO,AV. COLLASUYO NRO.2964, LC-205.CUSCO</td>
+<td>Centro Comercial Real Plaza, Segundo Nivel</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA7</td>
+<td>REAL PLAZA JULIACA</td>
+<td>PUNO</td>
+<td>PUNO</td>
+<td>REAL PLAZA JULIACA, JR. TUMBES NRO. 391 LC 150,152,154,156. </td>
+<td>Centro Comercial Real Plaza</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA83</td>
+<td>LIBERTAD</td>
+<td>PUNO</td>
+<td>PUNO</td>
+<td>Jr Libertad 161-173</td>
+<td>a 1/2 cuadra del Ministerio de Agricultura, 1/2 cuadra del gobierno regional Esquina Jr. Moquegua con Jr. Libertad</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA6</td>
+<td>APURIMAC</td>
+<td>TACNA</td>
+<td>TACNA</td>
+<td>Calle Apurimac 265</td>
+<td>Enrte Calle Apurimac y calle San Martin</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAL9</td>
+<td>ASAMBLEA2</td>
+<td>AYACUCHO</td>
+<td>AYACUCHO</td>
+<td>Jr. Asamblea 300 B</td>
+<td>entre el Jr Asamblea y Av Mariscal Caceres </td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAR0</td>
+<td>MOQUEGUA</td>
+<td>MOQUEGUA</td>
+<td>MOQUEGUA</td>
+<td>Calle Moquegua 616</td>
+<td>A media cuadra PLAZA DE ARMA MOQUEGUA</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAR6</td>
+<td>AYAVIRI</td>
+<td>PUNO</td>
+<td>AYAVIRI</td>
+<td>Jr. Alameda Pacheco Zegarra 127, distrito de Ayaviri, provincia de Melgar</td>
+<td>A media cuadra de LA PLAZA PRINCIPAL AYAVIRI</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAR7</td>
+<td>ILAVEL</td>
+<td>PUNO</td>
+<td>ILAVEL</td>
+<td>Jr. Dos de Mayo 154, distrito Ilave, provincia de El Collao</td>
+<td>A media cuadra de LA PLAZA PRINCIPAL ILAVE</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td>9:00am a 8:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAS0</td>
+<td>SAN FRANCISCO</td>
+<td>TACNA</td>
+<td>CORONEL GREGORIO ALBARRACIN LANCHIPA</td>
+<td>Asociación de vivienda Villa San Francisco Mz. 97 Lote 6</td>
+<td>Frente al mercado Santa Rosa</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAS2</td>
+<td>PATRICIO MELENDEZ</td>
+<td>TACNA</td>
+<td>TACNA</td>
+<td>Av. Patricio Meléndez tienda 108 - Mercado 2 de mayo</td>
+<td>Esquina del mercado 2 de Mayo</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm	</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA44</td>
+<td>NICOLAS AYLLON</td>
+<td>LIMA</td>
+<td>ATE</td>
+<td>Av. Nicolás Ayllón 5580 Int 4 - Urb. Valdiviezo - Ate - Lima</td>
+<td>Costado de tienda Elektra, a media cuadra de Plaza Vea.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/io.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA26</td>
+<td>REAL PLAZA CERCADO</td>
+<td>LIMA</td>
+<td>CERCADO</td>
+<td>Av. Paseo de la República 144, Tienda 6</td>
+<td>Dentro del CC Real Plaza Centro Cívico - Detrás del Hotel Sheraton, al frente de Plaza Vea</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA51</td>
+<td>BELAUNDE</td>
+<td>LIMA</td>
+<td>COMAS</td>
+<td>Av. Andres Belaunde Oeste Nro 265</td>
+<td>Cruce de las Avenidas Tupac Amaru con Andres Belaunde Oeste - Altura Banco Interbank</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA46</td>
+<td>MAP SANTA ANITA </td>
+<td>LIMA</td>
+<td>SANTA ANITA</td>
+<td>Av. Carretera Central Nro 111 - Local LF-9</td>
+<td>Dentro del CC Mall Aventura Plaza Sotano 1 - Frente a Inkafarma</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA4</td>
+<td>CHIMU</td>
+<td>LIMA</td>
+<td>SAN JUAN DE LURIGANCHO</td>
+<td>Av Gran Chimu 513 - Urb. Zarate</td>
+<td>Cerca a esquina Calle Ayar Manco y Av Gran Chimú.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 7:00pm</td>
+<td>9:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAT7</td>
+<td>SANTA CLARA</td>
+<td>LIMA</td>
+<td>SANTA CLARA</td>
+<td>Av. Nicolás Ayllón Nro. 8694 Fnd. La Estrella (Carretera Central km.10.5)</td>
+<td>Dentro del CC Real Plaza Santa Clara - Frente al Patio de Comidas</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA1</td>
+<td>REAL PLAZA HUANCAYO</td>
+<td>JUNIN</td>
+<td>JUNIN</td>
+<td>Av. ferrocarril sector 14 local 123/124/125 Huancayo</td>
+<td>Centro Comercial Real Plaza.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/o.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAC3</td>
+<td>OPEN PLAZA HUANCAYO</td>
+<td>JUNIN</td>
+<td>JUNIN</td>
+<td>CC Open Plaza Huancayo - Local LC-16 - Av. Ferrocarril 146-150</td>
+<td>Esquina con Prolongación San Carlos </td>
+<td>(+)</td>
+<td>(+)</td>
+<td>11:00am a 10:00pm</td>
+<td>11:00am a 10:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/o.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAV8</td>
+<td>TPF JOCKEY PLAZA</td>
+<td>LIMA</td>
+<td>SANTIAGO DE SURCO</td>
+<td>Av Javier Prado Este 4200 CC Jockey Plaza Locatario 208 A1</td>
+<td>Centro comercil Jockey Plaza al costado de Movistar 2do piso</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAB1</td>
+<td>MINKA</td>
+<td>LIMA</td>
+<td>CALLAO</td>
+<td>CC Minka - Local 105-106-107 - Av. Argentina 3093 - Avenida 3 Pabellon 9 (Minka 3)</td>
+<td>Centro Comercial Minka, al lado de Metro, frente a TAY LOY</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA32</td>
+<td>JAUJA</td>
+<td>JUNIN</td>
+<td>JAUJA</td>
+<td>Jr. Junin 938</td>
+<td>A media cuadra de la plaza de armas de Jauja</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 9:00pm</td>
+<td>10:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAL5</td>
+<td>LA MERCED</td>
+<td>JUNIN</td>
+<td>CHANCHAMAYO</td>
+<td>Av. Cesar Zuchetty 103</td>
+<td>Frente al parque de la integración</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAL7</td>
+<td>OXAPAMPA</td>
+<td>PASCO</td>
+<td>OXAPAMPA</td>
+<td>Jirón Mollembruck 463, Oxapampa</td>
+<td>Frente al mercado de abastos</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00 am a 8:00 pm</td>
+<td>9:00 am a 8:00 pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAL4</td>
+<td>PICHANAQUI</td>
+<td>JUNIN</td>
+<td>CHANCHAMAYO</td>
+<td>Av. Micaela Bastidas 572, Pichanaqui</td>
+<td>Frente al banco de la nación</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAL3</td>
+<td>SATIPO</td>
+<td>JUNIN</td>
+<td>SATIPO</td>
+<td>Jr. Colonos Fundadores 274  Puesto Nª35</td>
+<td>A una cuadra de la plaza centra de Satipo.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAL6</td>
+<td>TARMA</td>
+<td>JUNIN</td>
+<td>TARMA</td>
+<td>Jr. Lima No. 779, 799 con Jr. Pasco</td>
+<td>Al costado de La Curacao</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 9:00pm</td>
+<td>10:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA91</td>
+<td>MAP BELLAVISTA</td>
+<td>LIMA</td>
+<td>BELLAVISTA</td>
+<td>Av. Oscar R. Benavides 3866 interior  LF-05 Bellavista - Lima</td>
+<td>Centro del CC Mall Aventura Plaza. Cerca del cruce de la Av Faucett y Av Colonial</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAV7</td>
+<td>JR DE LA UNION 2</td>
+<td>LIMA</td>
+<td>LIMA</td>
+<td>Jr de la union 465 cercado de lima</td>
+<td>a media cuadra de la plaza san martin.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDA94</td>
+<td>MANCO CAPAC</td>
+<td>LIMA</td>
+<td>LA VICTORIA</td>
+<td>Av. Manco Capac 680 tienda 103.</td>
+<td>Cruce de Av. Manco Capac con Calle Unanue o frente al Hospital de la Solidaridad de Av.  Manco Capac.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>8:30am a 6:30pm</td>
+<td>8:30am a 1:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAF7</td>
+<td>MAP AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>Av. Porongoche # 500, LC 05</td>
+<td>MAP Porongoche Arequipa</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAA5</td>
+<td>LECAROS</td>
+<td>LIMA</td>
+<td>PUENTE PIEDRA</td>
+<td>Av, Juan Lecaros Mza. 6 Lt. 12 Del Casco Urbano</td>
+<td>Por la Municipalidad de Puente Piedra</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAT8</td>
+<td>REAL PLAZA SALAVERRY</td>
+<td>LIMA</td>
+<td>JESUS MARIA</td>
+<td>Av. General Felipe Santiago Salaverry Nro. 2370</td>
+<td>A una cuadra del Hotel Meliá</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAN1</td>
+<td>PIEROLA</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>Calle Pierola 441 - Cercado (costado mercado San Camilo)</td>
+<td>frente del mercado San Camilo (parte abajo)</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 9:00pm</td>
+<td>10:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAN9</td>
+<td>DIVINO NIÑO</td>
+<td>AREQUIPA</td>
+<td>PAUCARPATA</td>
+<td>Centro Comercial Divino Niño Tda. 110 Andres Avelino Cáceres - Distrito Jose Luis Bustamante y Rivero</td>
+<td>-</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAM4</td>
+<td>CAMANA</td>
+<td>AREQUIPA</td>
+<td>CAMANA</td>
+<td>Calle Prolongacion Quilca 213 - Camana</td>
+<td>al costado del mercado central, cruce de jiron ocoña con calle quilca</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAM5</td>
+<td>CAYMA</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>Av. Ejercito cuadra 6 - Lote 19A</td>
+<td>Frente al grifo Pecsa</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAM8</td>
+<td>ELIAS AGUIRRE AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>Calle Elias Aguirre 316 (Distrito Miraflores - Feria del Altiplano)</td>
+<td>Al frente de la FERIA DEL ALTIPLANO (seccion zapatillas)</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>09:00am a 8:00pm</td>
+<td>09:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAM6</td>
+<td>JORGE CHAVEZ</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>Av. Jorge Chávez 303</td>
+<td>Media cuadra abajo del C.C. Nuevo Mundo</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAN6</td>
+<td>MERCADERES</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>Calle Mercaderes 407-409</td>
+<td>frente al banco scotiabank</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAN5</td>
+<td>MOLLENDO</td>
+<td>AREQUIPA</td>
+<td>MOLLENDO</td>
+<td>Calle Arequipa 398 - Mollendo - Islay</td>
+<td>CRUCE CALLE AREQUIPA CON CALLE DEAN VALDIVIA, AL COSTADO DE CREDISHOP.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAN3</td>
+<td>MUÑOZ</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>Calle Octavio Muñoz Najar 138-B y 140 Cercado Arequipa -Tienda 103</td>
+<td>A media cuadra del C.C. La Gran Via</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAN2</td>
+<td>PEDREGAL</td>
+<td>AREQUIPA</td>
+<td>MAJES</td>
+<td>Calle Islay Mz. T LT. 1 Tienda 2 - El Pedregal</td>
+<td>CRUCE CALLE UNION Y CALLE YANAHUARA, FRENTE AL MERCADO TRIUNFO 2000; A MEDIA CUADRA DE LA PLAZA PRINCIPAL</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAN8</td>
+<td>PIEROLA</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>Calle Pierola 114 D4 - Cercado</td>
+<td>Centro comercial Global Plaza(al costado del canco de la nacion)</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAN0</td>
+<td>SAN JUAN AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>Calle San Juan de Dios 553 A</td>
+<td>al costado de centro comercial La Barraca</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAM7</td>
+<td>CERRO COLORADO</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>Pueblo Tradicional de Zamacola Mz.R. Lt.9</td>
+<td>Entre la Av Aviacion y la calle Marañon, al costado de InkaFarma</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAE2</td>
+<td>LA RAMBLA</td>
+<td>LIMA</td>
+<td>BREÑA</td>
+<td>CC La Rambla-Local LO103-Av Brasil N°714 al N° 792 Jr. Centenario.</td>
+<td>Centro Comercial Rambla</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAO7</td>
+<td>TRES CRUCES</td>
+<td>CUSCOCUSCO</td>
+<td>CUSCO</td>
+<td>Calle Tres Cruces de Oro 233-E</td>
+<td>A cinco tiendas antes de llegar al centro comercial EL PARAISO.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAO9</td>
+<td>AFLIGIDOS</td>
+<td>CUSCO</td>
+<td>CUSCO</td>
+<td>Calle Afligidos 124 - Tienda 1</td>
+<td>Mas arriba de la tienda de BATA o al costado del palacio de Justicia</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAO8</td>
+<td>EL TAMBO</td>
+<td>CUSCO</td>
+<td>CUSCO</td>
+<td>Calle Ayacucho 291 (antes 233) - Apartado 106 - Inmueble del Hotel Tambo</td>
+<td>Entre la puerta principal del hotel TAMBO y la optica VISION</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAO1</td>
+<td>COSTANERA</td>
+<td>CUSCO</td>
+<td>WANCHAQ</td>
+<td>Pueblo joven Simón Herrera Farfán, manzana K lote 2. Distrito de Huanchac (Jr. De la Union con Costanera)</td>
+<td>Al frente de tiendas EFE, y al costado de la pasteleria PASTORE.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>11:00am a 9:00pm</td>
+<td>11:00am a 9:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAO3</td>
+<td>QUILLABAMBA</td>
+<td>CUSCO</td>
+<td>LA CONVENCION</td>
+<td>Salon Multiple 102, 1er. Piso, Fracción LL-20-B. Lote 20, Mz. LL, Urb. Granja de Misión, distrito de Santa Ana, provincia de La Convencion</td>
+<td> Plaza de armas, costado de la comandancia PNP y licoreria Palito  (casa de dos pisos)</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDA03</td>
+<td>QUILLABAMBA</td>
+<td>CUSCO</td>
+<td>LA CONVENCION</td>
+<td>Salon Multiple 102, 1er. Piso, Fracción LL-20-B. Lote 20, Mz. LL, Urb. Granja de Misión, distrito de Santa Ana, provincia de La Convencion</td>
+<td> Plaza de armas, costado de la comandancia PNP y licoreria Palito  (casa de dos pisos)</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF</td>
+<td>TIENDAO5</td>
+<td>SICUANI</td>
+<td>CUSCO</td>
+<td>SICUANI</td>
+<td>Jr. Dos de Mayo 213 - Cercado Sicuani</td>
+<td>A una cuadra de plaza de armas de sicuani-al frente de CREDINKA,costado de hostal Escalante.</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 8:00pm</td>
+<td>10:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAO4</td>
+<td>URUBAMBA</td>
+<td>CUSCO</td>
+<td>URUBAMBA</td>
+<td>Mz. A Lote 5 Urbanización Pintacha - Distrito y Provincia de Urubamba</td>
+<td>Al costado de rico pollo y frente a la cooperativa ahorro y crédito Qorilazo</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>09:00am a 7:00pm</td>
+<td>09:00am a 7:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAE6</td>
+<td>COLON</td>
+<td>LIMA</td>
+<td>HUACHO</td>
+<td>Calle Colón 601 Plaza del Sol - Norte Chico</td>
+<td>Centro Comercial Plaza del Sol</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>10:00am a 10:00pm</td>
+<td>10:00am a 10:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAE3</td>
+<td>28 DE JULIO HUARAL</td>
+<td>LIMA</td>
+<td>HUARAL</td>
+<td>Calle 28 de Julio 192 </td>
+<td>costado de mercado de carnes </td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 8:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAH5</td>
+<td>LURIN</td>
+<td>LIMA</td>
+<td>LURIN</td>
+<td>Fundo San vicente Parcela B62 Ref Entrada san pedro- </td>
+<td>LURIN /km 24 antigua panamericana sur a 100 mtrs entrada san pedro</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 6:00pm</td>
+<td>9:00am a 5:30pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAG4</td>
+<td>VENTANILLA</td>
+<td>LIMA</td>
+<td>VENTANILLA</td>
+<td>Mz. C3 Lte. 17-Urb. Ex zona Comercial  e Industrial / Prov. Constitucional del Callao- Ventanilla</td>
+<td>Alfrente del Grifo PRIMAX</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 8:00pm</td>
+<td>9:00am a 4:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+<tr>
+<td>TPF-TC</td>
+<td>TIENDAE4</td>
+<td>PARQUE INDUSTRIAL</td>
+<td>LIMA</td>
+<td>VILLA EL SALVADOR</td>
+<td>Mz K2 Lt5 Parcela II del Parque Industrial (av. Velasco Alvarado)</td>
+<td>Centro Bancario</td>
+<td>(+)</td>
+<td>(+)</td>
+<td>9:00am a 6:00pm</td>
+<td>9:00am a 2:00pm</td>
+<td>NO ATIENDE</td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/y.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/x.png" /></td>
+<td><img src="img_pagina_inicio/TIENDA/i.png" /></td>
+</tr>
+</tbody>
+</table>
+</section>
